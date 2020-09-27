@@ -1,5 +1,0 @@
-curl http://ip-10-1-18-31:5000/msg?text=test
-curl -G -v http://ip-10-1-18-31:5000/msg --data-urlencode "text=你好! ALLEN"
-curl -G -v http://ip-10-1-18-31:5000/msg --data-urlencode "text=你好! ALLEN"   --data-urlencode "channel=ad-dynamic-ads-exp"
-
-
