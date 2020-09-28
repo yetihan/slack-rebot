@@ -1,4 +1,4 @@
-pids=`ps aux | grep message_server.py | grep python | awk '{print $2}'`
+pids=`ps aux | grep 'flask run' | grep python | awk '{print $2}'`
 
 echo "pids: ${pids}"
 
@@ -11,5 +11,5 @@ done
 
 mkdir -p log
 echo "restart server " >> log/server.log
-nohup python message_server.py >> log/server.log &
+nohup flask run >> log/server.log &
 
