@@ -9,3 +9,18 @@ curl -G -v http://ip-10-1-18-31:5000/msg --data-urlencode "text=I am Gakki."   -
 ```
 
 `text`(required)  is the message content, `channel`(optional) is the slack channel, default channel value is `project-gakki`.
+
+
+## How to run in local
+1. Please check the .env config
+2. Excuate the cmd in local (python3)
+
+```
+- pip3 install -r requirements.txt
+- flask run
+```
+or 
+
+```
+- restart.sh
+```
