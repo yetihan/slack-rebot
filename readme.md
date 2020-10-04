@@ -24,3 +24,6 @@ or
 ```
 - restart.sh
 ```
+
+## Reference
+- [SlackBot-Simplest-Tutorial](https://github.com/wen830722/SlackBot-Simplest-Tutorial/blob/master/README.md)
